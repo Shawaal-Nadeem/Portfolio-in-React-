@@ -18,7 +18,7 @@ return(
           </div>
 <div class="contact-me">
   <p>Let Me Get You A Beautiful Website.</p>
-  <button class="button-two">Hire Me</button>
+ <Link to='/'> <button class="button-two">Hire Me</button></Link>
 </div>
 
 
