@@ -2,6 +2,7 @@ body{
 	background-color: rgb(16, 16, 16);
 }
 
+
 @media screen and (max-width:899px)  {
 	.list {
 	flex-direction: column;
