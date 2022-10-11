@@ -29,15 +29,16 @@ return(
 <div className="hero">
 
   <nav>
+  <h2 class="logo">Portfo<span>lio</span></h2>
   <div onClick={toggleNav} className="menu-button">
 <div className="bar"></div>
 <div className="bar"></div>
 <div className="bar"></div>
 </div>   
-   
+
   </nav>
           <nav>
-{(toggleMenu || screenWidth>869 ) && (
+{(toggleMenu || screenWidth>900 ) && (
       <ul className="list">
     <li className="items"><Link exact to="/">Home</Link></li>
       <li className="items"><Link to="/about">About Us</Link></li>
@@ -47,7 +48,6 @@ return(
     </ul>
     )}
     </nav>
-    <h2 class="logo">Portfo<span>lio</span></h2>
 
   <div class="content">
     
@@ -64,7 +64,7 @@ return(
     </div>
 
   </div>
-  <img class="s" src="images/background.png" alt="Girl in a jacket" width="430" height="530"/>
+  <img class="s" src="images/background.png" alt="" width="430" height="530"/>
 
 </div>
 

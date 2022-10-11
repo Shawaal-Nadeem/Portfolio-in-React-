@@ -27,12 +27,13 @@ function Skill(){
 <div>
 <div class="hero-about">
 <nav>
+  <h2 class="logo">Portfo<span>lio</span></h2>
   <div onClick={toggleNav} className="menu-button">
 <div className="bar"></div>
 <div className="bar"></div>
 <div className="bar"></div>
 </div>   
-   
+
   </nav>
           <nav>
 {(toggleMenu || screenWidth>869 ) && (
@@ -45,7 +46,6 @@ function Skill(){
     </ul>
     )}
     </nav>
-    <h2 class="logo">Portfo<span>lio</span></h2>
           </div>
 <div class="service">
   <div class="title">

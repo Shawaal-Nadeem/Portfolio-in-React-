@@ -27,12 +27,13 @@ return(
 <div>
 <div className="hero-about">
 <nav>
+  <h2 class="logo">Portfo<span>lio</span></h2>
   <div onClick={toggleNav} className="menu-button">
 <div className="bar"></div>
 <div className="bar"></div>
 <div className="bar"></div>
 </div>   
-   
+
   </nav>
           <nav>
 {(toggleMenu || screenWidth>869 ) && (
@@ -45,7 +46,6 @@ return(
     </ul>
     )}
     </nav>
-    <h2 class="logo">Portfo<span>lio</span></h2>
   </div>
 <section class="about">
   <div class="main">
