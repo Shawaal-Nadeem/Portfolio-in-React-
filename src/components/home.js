@@ -41,9 +41,9 @@ return(
 {(toggleMenu || screenWidth>900 ) && (
       <ul className="list">
     <li className="items"><Link exact to="/">Home</Link></li>
-      <li className="items"><Link to="/about">About Us</Link></li>
+    <li className="items"><Link to="/skills">Skills</Link></li>
       <li className="items"><Link to="/services">Services</Link></li>
-      <li className="items"><Link to="/skills">Skills</Link></li>
+      <li className="items"><Link to="/about">About Us</Link></li>
       <li className="items"><Link to="/contact-us">Contact Us</Link></li>
     </ul>
     )}
