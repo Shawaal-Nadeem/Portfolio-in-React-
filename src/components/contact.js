@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
 function Contact(){
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -26,7 +28,13 @@ return(
 <div>
 <div class="hero-about">
 <nav>
-  <h2 class="logo">Portfo<span>lio</span></h2>
+  <Stack className="logo">
+  <Avatar
+        alt="Remy Sharp"
+        src="images/p.jpg"
+        sx={{ width: 100, height: 100 }}
+      />
+    </Stack>
   <div onClick={toggleNav} className="menu-button">
 <div className="bar"></div>
 <div className="bar"></div>
@@ -35,20 +43,20 @@ return(
 
   </nav>
           <nav>
-{(toggleMenu || screenWidth>869 ) && (
-     <ul className="list">
-     <li className="items"><Link exact to="/">Home</Link></li>
-     <li className="items"><Link to="/skills">Skills</Link></li>
-       <li className="items"><Link to="/services">Services</Link></li>
-       <li className="items"><Link to="/about">About Us</Link></li>
-       <li className="items"><Link to="/contact-us">Contact Us</Link></li>
-     </ul>
+{(toggleMenu || screenWidth>900 ) && (
+      <ul className="list">
+    <li className="items"><Link exact to="/">Home</Link></li>
+    <li className="items"><Link to="/skills">Skills</Link></li>
+      <li className="items"><Link to="/services">Services</Link></li>
+      <li className="items"><Link to="/about">About Us</Link></li>
+      <li className="items"><Link to="/contact-us">Contact Us</Link></li>
+    </ul>
     )}
     </nav>
           </div>
 <div class="contact-me">
   <p>Let Me Get You A Beautiful Website.</p>
- <Link to='/'> <button class="button-two">Hire Me</button></Link>
+ <a href="mailto:webdevpro55@gmail.com.com"> <button class="button-two">Hire Me</button></a>
 </div>
 
 

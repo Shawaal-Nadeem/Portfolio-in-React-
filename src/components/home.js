@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
 function Home(){
   const [toggleMenu, setToggleMenu] = useState(false)
   const [screenWidth, setScreenWidth] = useState(window.innerWidth)
@@ -29,7 +31,13 @@ return(
 <div className="hero">
 
   <nav>
-  <h2 class="logo">Portfo<span>lio</span></h2>
+  <Stack className="logo">
+  <Avatar
+        alt="Remy Sharp"
+        src="images/p.jpg"
+        sx={{ width: 100, height: 100 }}
+      />
+    </Stack>
   <div onClick={toggleNav} className="menu-button">
 <div className="bar"></div>
 <div className="bar"></div>
@@ -50,11 +58,11 @@ return(
     </nav>
 
   <div class="content">
-    
+   <div className="anim">
     <h4>Hello, my name is</h4>
     <h1>Shawaal <span>Nadeem</span></h1>
     <h3>I'am a Web Developer.</h3>
-    
+    </div>
     <div class="newslatter">
     
       <form>
@@ -64,7 +72,6 @@ return(
     </div>
 
   </div>
-  <img class="s" src="images/background.png" alt="" width="430" height="530"/>
 
 </div>
 

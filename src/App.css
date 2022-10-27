@@ -4,17 +4,6 @@ body{
 	animation: transitionIn 0.75s;
 }
 
-@keyframes transitionIn {
-	from{
-		opacity: 0;
-		transform: translateY(-10px);
-	}
-	to{
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
 @media screen and (max-width:899px)  {
 	.list {
 	flex-direction: column;
@@ -160,6 +149,14 @@ nav ul li a:hover{
 	left:0%;
 	transform: translateY(-50%);
 }
+.anim{
+	position: relative;
+	animation: mymove 2s;
+  }
+  @keyframes mymove {
+	from {left: -200%;}
+	to {left: 0%;}
+  }
 h1{
 	color: white;
 	margin: 20px 0px 20px;
@@ -408,10 +405,7 @@ float: right;	position: relative;
   height: 300px;
   width: 230px;
 }
-@keyframes mymove {
-	from {bottom: -100%;}
-	to {bottom: 0%;}
-  }
+
 }
 
 
@@ -455,22 +449,15 @@ nav{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: -3%;
-	padding-left: 28%;
-	padding-right: 8%;
+	margin-top: 0%;
+	padding-left: 38%;	
 }
+
 .nav-items{
 	margin-left: 0%;
 	
 }
-.logo{
-	color: white;
-	font-size: 35px;
-	letter-spacing: 1px;
-	padding-top: 7%;
-	padding-left: 10px;
-	margin-left: -40%;
-}
+
 span{
 	color:rgb(94, 119, 149);
 }
@@ -487,24 +474,24 @@ nav ul li a:hover{
 }
 
 .hero-about{
-	height: 20vh;
+	height: 30vh;
 	width: 100%;
 	background-image: url(/public/images/background.jpeg);
 	background-size: cover;
 	background-position: center;
 }
 
+.list{
+	margin-top: -8%;
+}
 
 .nav-items{
 	margin-left: 13%;
 }
 .logo{
-	color: white;
-	font-size: 35px;
-	letter-spacing: 1px;
-	padding-top: 7%;
+	padding-top: 3%;
 	padding-left: 10px;
-	margin-left: -40%;
+	margin-left: -49%;
 }
 span{
 	color:rgb(94, 119, 149);
@@ -512,8 +499,8 @@ span{
 .items{
 	list-style-type: none;
 	display: inline-block;
-	padding: 10px  15px;
-	font-size: 130%;
+	padding: 15px  20px;
+	font-size: 155%;
 }
 nav ul li a{
 	color: white;
@@ -525,6 +512,7 @@ nav ul li a:hover{
 	color: rgb(94, 119, 149);
 	transition: .4s;
 }
+
 .btn{
 	background-color:rgb(92, 126, 157);
 	color: white;
@@ -545,6 +533,14 @@ nav ul li a:hover{
 	left:8%;
 	transform: translateY(-50%);
 }
+.anim{
+	position: relative;
+	animation: mymove 2s;
+  }
+  @keyframes mymove {
+	from {left: -200%;}
+	to {left: 0%;}
+  }
 h1{
 	color: white;
 	margin: 20px 0px 20px;
@@ -793,8 +789,5 @@ footer p:nth-child(2){
 	position: relative;
   animation: mymove 2s;
 }
-@keyframes mymove {
-	from {bottom: -100%;}
-	to {bottom: 0%;}
-  }
+
 } 
