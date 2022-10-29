@@ -56,7 +56,7 @@ return(
           </div>
 <div class="contact-me">
   <p>Let Me Get You A Beautiful Website.</p>
- <a href="mailto:webdevpro55@gmail.com.com"> <button class="button-two">Hire Me</button></a>
+ <a href="https://wa.me/03096946556"> <button class="button-two">Hire Me</button></a>
 </div>
 
 

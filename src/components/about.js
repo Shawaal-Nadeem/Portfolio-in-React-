@@ -60,7 +60,7 @@ return(
       <h2>About Me</h2>
       <h5>Developer <span>& Designer</span></h5>
       <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
-      <a href="mailto:webdevpro55@gmail.com"><button type="button">Let's Talk</button></a>
+      <a href="https://wa.me/03096946556"><button type="button">Let's Talk</button></a>
     </div>
   </div>
 </section>
