@@ -5,7 +5,7 @@ return(
 <div>
 <footer>
   <p>Shawaal Nadeem</p>
-  <p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+  <p>For more HTML, CSS, Javascript and React  - please click on the icons below to contact me:</p>
   <div class="social">
     <a href="https://wa.me/03096946556"><i class="fab fa-whatsapp"></i></a>
     <a href="mailto:webdevpro55@gmail.com.com"><i class="fab fa-google"></i></a>
