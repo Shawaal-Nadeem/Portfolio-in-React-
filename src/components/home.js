@@ -3,27 +3,27 @@ import { Link } from "react-router-dom";
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 function Home(){
-  const [toggleMenu, setToggleMenu] = useState(false)
-  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  // const [toggleMenu, setToggleMenu] = useState(false)
+  // const [screenWidth, setScreenWidth] = useState(window.innerWidth)
 
 
-  const toggleNav = () => {
-    setToggleMenu(!toggleMenu)
-  }
+  // const toggleNav = () => {
+  //   setToggleMenu(!toggleMenu)
+  // }
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    const changeWidth = () => {
-      setScreenWidth(window.innerWidth);
-    }
+  //   const changeWidth = () => {
+  //     setScreenWidth(window.innerWidth);
+  //   }
 
-    window.addEventListener('resize', changeWidth)
+  //   window.addEventListener('resize', changeWidth)
 
-    return () => {
-        window.removeEventListener('resize', changeWidth)
-    }
+  //   return () => {
+  //       window.removeEventListener('resize', changeWidth)
+  //   }
 
-  }, [])
+  // }, [])
 
 return(
 <div>
@@ -38,14 +38,28 @@ return(
         sx={{ width: 100, height: 100 }}
       />
     </Stack>
-  <div onClick={toggleNav} className="menu-button">
-<div className="bar"></div>
-<div className="bar"></div>
-<div className="bar"></div>
+  <div>
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler"/>
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
+          <ul>
+    <li><Link exact to="/">Home</Link></li>
+    <li><Link to="/skills">Skills</Link></li>
+      <li><Link to="/services">Services</Link></li>
+      <li ><Link to="/about">About Us</Link></li>
+      <li><Link to="/contact-us">Contact Us</Link></li>
+    </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>   
 
   </nav>
-          <nav>
+          {/* <nav>
 {(toggleMenu || screenWidth>900 ) && (
       <ul className="list">
     <li className="items"><Link exact to="/">Home</Link></li>
@@ -55,7 +69,7 @@ return(
       <li className="items"><Link to="/contact-us">Contact Us</Link></li>
     </ul>
     )}
-    </nav>
+    </nav> */}
 
   <div class="content">
    <div className="anim">
