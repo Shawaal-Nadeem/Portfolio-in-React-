@@ -10,7 +10,7 @@ function Skill(){
   <Stack className="logo">
   <Avatar
         alt="Remy Sharp"
-        src="images/p.jpg"
+        src="images/ps.jpg"
         sx={{ width: 100, height: 100 }}
       />
     </Stack>
@@ -49,7 +49,7 @@ function Skill(){
         <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
         <p style={{ textAlign:`center` }}>
-          <a href="https://timely-malabi-4992be.netlify.app"><button class="button">Click Me</button></a>
+          <a href="https://timely-malabi-4992be.netlify.app"><button class="button">View</button></a>
         </p>
       </div>
     </div>
@@ -61,7 +61,7 @@ function Skill(){
         <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
         <p style={{ textAlign:`center` }}>
-         <a href="https://fastidious-peony-79400b.netlify.app"> <button class="button">Click Me</button></a>
+         <a href="https://fastidious-peony-79400b.netlify.app"> <button class="button">View</button></a>
         </p>
       </div>
     </div>
@@ -73,7 +73,7 @@ function Skill(){
         <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
         <p style={{ textAlign:`center` }}>
-        <a href="https://fascinating-biscuit-455748.netlify.app">  <button class="button">Click Me</button></a>
+        <a href="https://fascinating-biscuit-455748.netlify.app">  <button class="button">View</button></a>
         </p>
       </div>
     </div>

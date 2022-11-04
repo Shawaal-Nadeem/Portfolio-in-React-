@@ -12,7 +12,7 @@ return(
   <Stack className="logo">
   <Avatar
         alt="Remy Sharp"
-        src="images/p.jpg"
+        src="images/ps.jpg"
         sx={{ width: 100, height: 100 }}
       />
     </Stack>
@@ -48,7 +48,7 @@ return(
     <div class="newslatter">
     
       <form>
-        <input type="email" name="email" id="mail" placeholder="Enter Your Email"/>
+        <input type='text' name="email" id="mail" placeholder="Enter Anything"/>
         <input type="submit" name="submit" value="Lets Start"/>
       </form>
     </div>
