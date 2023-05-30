@@ -11,8 +11,8 @@ return(
   <Stack className="logo">
   <Avatar
         alt="Remy Sharp"
-        src="images/ps.jpg"
-        sx={{ width: 100, height: 100 }}
+        src="images/psp.jpg"
+        sx={{ width: 150, height: 150 }}
       />
     </Stack>
   <div>
